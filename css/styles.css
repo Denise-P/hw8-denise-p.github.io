@@ -1,0 +1,178 @@
+/* Color Palette
+# - #fcf9ea
+# - #badfdb
+# - #ffa4a4
+# - #ffbdbd
+*/
+
+/* Global styles 
+------------------------------------*/
+.html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+}
+/* Header & Footer 
+------------------------------------*/
+.header {
+  background-color: #fcf9ea;
+}
+
+.nav_bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #badfdb;
+}
+
+.nav_bar a {
+  font-size: 30px;
+  font-weight: 500;
+  font-style: oblique;
+  padding: 20px;
+  padding-top: 50px;
+  float: right;
+}
+
+.nav_bar img{
+  float: left;
+}
+
+.column-narrow {
+  width: 30%;
+  float: left;
+  padding-right: 3%;
+  min-height: 175px;
+}
+
+.column-wide {
+  width: 70%;
+  float: left;
+}
+.intro {
+  padding-top: 150px;
+}
+
+/* kept width & height because it kept halfing my image and I don't know why*/
+.profile-img {
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.content-wrap {
+  max-width: 1020px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.name {
+  padding-left: 30px;
+}
+.name h1 {
+  font-size: 100px;
+  font-weight: 500;
+  font-style: oblique;
+  margin-bottom: 0;
+}
+
+.name h2 {
+  margin-top: 0;
+  font-size: 60px;
+  font-weight: 200;
+  font-style: oblique;
+}
+
+.summary {
+  background-color: #ffbdbd;
+  padding: 15px;
+}
+
+.summary h2 {
+  margin-top: 0;
+  font-size: 70px;
+  font-weight: 600;
+  font-style: oblique;
+}
+
+.portfolio {
+  float: right;
+}
+
+/* Work Experience
+------------------------------------*/
+.work {
+  background-color: #fcf9ea;
+  padding: 15px;
+}
+
+.work h2 {
+  margin-top: 0;
+  font-size: 60px;
+  font-weight: 600;
+  font-style: oblique;
+}
+
+.work h3 {
+  font-size: 40px;
+  font-weight: 300;
+  font-style: oblique;
+}
+/* Education
+------------------------------------*/
+.education {
+  background-color: #ffa4a4;
+  padding: 15px;
+}
+
+.education h2 {
+  margin-top: 0;
+  font-size: 60px;
+  font-weight: 600;
+  font-style: oblique;
+}
+
+.education h3 {
+  font-size: 40px;
+  font-weight: 200;
+  font-style: oblique;
+}
+/* Footer
+------------------------------------*/
+.footer {
+  background-color: #fff5c2;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer h2 {
+  margin-top: 0;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: oblique;
+}
+
+.content-info a {
+  font-size: 20px;
+  padding: 10px;
+  display: inline-block;
+}
+.content-info img{
+  width: 3%;
+  height: 30px;
+}
+.footer p {
+  font-size: 20px;
+}
+

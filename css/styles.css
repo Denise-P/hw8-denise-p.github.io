@@ -47,7 +47,7 @@ body {
   float: right;
 }
 
-.nav_bar img{
+.nav_bar img {
   float: left;
 }
 
@@ -96,7 +96,7 @@ body {
 
 .summary {
   background-color: #ffbdbd;
-  padding: 15px;
+  padding: 25px;
 }
 
 .summary h2 {
@@ -132,8 +132,13 @@ body {
 /* Education
 ------------------------------------*/
 .education {
-  background-color: #ffa4a4;
-  padding: 15px;
+  background-image: url("../images/csun.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 164, 164, 0.9);
+  background-blend-mode: overlay;  
+  padding: 25px;
 }
 
 .education h2 {
@@ -168,11 +173,10 @@ body {
   padding: 10px;
   display: inline-block;
 }
-.content-info img{
+.content-info img {
   width: 3%;
   height: 30px;
 }
 .footer p {
   font-size: 20px;
 }
-

@@ -31,6 +31,7 @@ body {
 }
 
 .nav_bar {
+  text-align: center;
   position: fixed;
   top: 0;
   width: 100%;
@@ -39,14 +40,16 @@ body {
 }
 
 .nav_bar a {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 500;
   font-style: oblique;
   padding: 20px;
-  padding-top: 50px;
-  float: right;
-}
+  
 
+}
+.links {
+  padding-top: 80px;
+}
 .nav_bar img {
   float: left;
 }
@@ -138,6 +141,7 @@ body {
   background-repeat: no-repeat;
   background-color: rgba(255, 164, 164, 0.9);
   background-blend-mode: overlay;  
+  background-attachment: fixed;
   padding: 25px;
 }
 
